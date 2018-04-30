@@ -26,9 +26,7 @@ app.get("/", (req, res) => {
 })
 
 app.get("/campgrounds", (req, res) => {
-
     res.render("campgrounds", {camps: camps})
-
 })
 
 app.post("/campgrounds", (req, res) => {
