@@ -21,7 +21,6 @@ var camps = [
     // { name: "Lalala", image: "https://macaobeachhostel.com/wp-content/uploads/2017/08/Slide01-2.jpg"}
 ]
 
-
 app.get("/", (req, res) => {
     res.render("landing")
 })
