@@ -30,7 +30,6 @@ app.get("/campgrounds", (req, res) => {
 })
 
 app.post("/campgrounds", (req, res) => {
-
     // Get data from form & add to camps array
     var name = req.body.name;
     var image = req.body.image;
